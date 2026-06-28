@@ -1,6 +1,5 @@
 export function renderCategories(categories) {
-    const navContainer = document.getElementById('submenu-categoy');
-    debugger
+    const navContainer = document.getElementById('submenu-category');
 
     const fragment = document.createDocumentFragment();
 
@@ -12,7 +11,7 @@ export function renderCategories(categories) {
 
         fragment.appendChild(li);
     });
-debugger
+
     navContainer.appendChild(fragment);
 
 }
